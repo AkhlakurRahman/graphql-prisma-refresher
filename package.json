@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.js --exec babel-node"
+    "start": "nodemon src/server.js --exec babel-node",
+    "get-schema": "graphql get-schema -p prisma"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,9 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "braces": "^3.0.2",
+    "graphql-cli": "^3.0.14",
     "graphql-yoga": "^1.18.3",
+    "prisma-binding": "^2.3.16",
     "uuid": "^3.3.3"
   },
   "devDependencies": {
