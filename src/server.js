@@ -8,6 +8,9 @@ import Comment from './resolvers/Comment';
 import Mutation from './resolvers/Mutation';
 import Subscription from './resolvers/Subscription';
 import prisma from './prisma';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const pubsub = new PubSub();
 

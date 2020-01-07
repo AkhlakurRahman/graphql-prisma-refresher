@@ -23,10 +23,12 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "braces": "^3.0.2",
+    "dotenv": "^8.2.0",
     "graphql-cli": "^3.0.14",
     "graphql-yoga": "^1.18.3",
+    "open": "^7.0.0",
     "prisma-binding": "^2.3.16",
-    "uuid": "^3.3.3"
+    "sync-exec": "^0.6.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
